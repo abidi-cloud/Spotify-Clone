@@ -2,11 +2,11 @@
   --prim-color: #2ebd59;
 }
 
-body{
+body {
   background: linear-gradient(to right, #bbd2c5, #536976, #292e49);
 }
 
-#nav-div{
+#nav-div {
   padding-top: 7px;
   padding-bottom: 7px;
 }
@@ -37,7 +37,7 @@ body{
   box-shadow: none;
 }
 
-.main-cont{
+.main-cont {
   background-image: url(media/matt-botsford-OKLqGsCT8qs-unsplash.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,27 +46,27 @@ body{
   position: relative;
 }
 
-.song-cont{
+.song-cont {
   padding: 120px 20px;
 }
 
-.song-list{
+.song-list {
   width: 40%;
 }
 
-.song-item{
-  background-image: linear-gradient(to right, #bbd2c570 , #6d596970);
+.song-item {
+  background-image: linear-gradient(to right, #bbd2c570, #6d596970);
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 0.7rem;
 }
 
-.song-img{
+.song-img {
   width: 50px;
 }
 
-.bottom-cont{
+.bottom-cont {
   background-color: #2d2d2d;
   padding-top: 20px;
   padding-bottom: 16px;
@@ -76,7 +76,7 @@ body{
   align-items: center;
 }
 
-.current-song{
+.current-song {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -85,7 +85,7 @@ body{
   top: -50px;
 }
 
-.cs-name{
+.cs-name {
   margin-bottom: 0.4rem;
   font-size: 17px;
   font-weight: 700;
@@ -93,28 +93,28 @@ body{
   transition: opacity 0.2s linear;
 }
 
-.cs-gif{
+.cs-gif {
   width: 75px;
   opacity: 0;
   transition: opacity 0.2s linear;
 }
 
-#audio-bar{
+#audio-bar {
   width: 75%;
   cursor: pointer;
 }
 
-.icons{
+.icons {
   margin-top: 10px;
   font-size: 2rem;
   color: white;
 }
 
-.icons i{
+.icons i {
   cursor: pointer;
 }
 
-.time-units{
+.time-units {
   width: 75%;
   color: white;
   display: flex;
@@ -123,32 +123,31 @@ body{
   top: 2.7rem;
 }
 
-@media (max-width: 900px){
-  .song-list{
+@media (max-width: 900px) {
+  .song-list {
     width: 60%;
     padding-bottom: 20px;
   }
 
-  .current-song{
+  .current-song {
     position: relative;
     top: auto;
     color: white;
     margin-bottom: 0.5rem;
   }
 
-  .bottom-cont{
+  .bottom-cont {
     padding-top: 10px;
     padding-bottom: 7px;
   }
 
-  .time-units{
-    top: 6.2rem;
+  .time-units {
+    top: 5.7rem;
   }
 }
 
 @media (max-width: 576px) {
-
-  #nav-div{
+  #nav-div {
     padding-top: 4px;
     padding-bottom: 4px;
   }
@@ -161,7 +160,7 @@ body{
     width: 125px;
   }
 
-  .song-cont{
+  .song-cont {
     padding: 90px 15px;
     display: flex;
     flex-direction: column;
@@ -169,22 +168,22 @@ body{
     align-items: center;
   }
 
-  .song-list{
+  .song-list {
     width: 95%;
     padding-bottom: 40px;
     margin-top: 0.5rem !important;
   }
 
-  .song-img{
+  .song-img {
     width: 40px;
   }
 
-  .bottom-cont{
+  .bottom-cont {
     padding-top: 10px;
     padding-bottom: 7px;
   }
 
-  .time-units{
-    top: 2.7rem;
+  .time-units {
+    top: 52px;
   }
 }
